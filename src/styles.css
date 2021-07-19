@@ -1,0 +1,93 @@
+.container {
+  max-width: 100%;
+}
+body {
+  border: 1px solid salmon;
+  margin: 10px auto;
+  border-radius: 4px;
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+  opacity: 0.9;
+  max-width: 600px;
+}
+ul {
+  list-style: none;
+  padding-left: 10px;
+}
+.current-city {
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+.current-date {
+  font-size: 16px;
+  font-weight: 300;
+  padding-top: 0;
+  margin-bottom: 0;
+}
+.form-control {
+  border-radius: 5px;
+  padding: 5px;
+  transition: all 250ms ease-in-out;
+  background: lightblue;
+  color: grey;
+  width: 95%;
+}
+:hover.form-control {
+  background: #fff;
+  color: lightblue;
+  border: 1px solid lightblue;
+}
+.today-temp {
+  font-size: 50px;
+  padding-top: 8px;
+  font-weight: 600;
+}
+.units {
+  position: relative;
+  top: -61px;
+  left: 66px;
+  font-size: 15px;
+  font-weight: 200;
+  padding-top: 8px;
+}
+.today-conditions {
+  font-size: 25px;
+  padding-top: 0;
+  padding-bottom: 30px;
+  line-height: 10px;
+  text-transform: capitalize;
+}
+.humidity {
+  font-size: 14px;
+  color: rgb(79, 79, 209);
+}
+.wind {
+  font-size: 14px;
+  color: lightblue;
+}
+.forecast {
+  color: #000;
+  text-align: center;
+  margin: 0 auto;
+}
+.forecast-temp {
+  font-size: 14px;
+}
+:hover.col.plus-one,
+:hover.col.plus-two,
+:hover.col.plus-three,
+:hover.col.plus-four,
+:hover.col.plus-five {
+  background-color: lightblue;
+  opacity: 80%;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.col.plus-one,
+.col.plus-two,
+.col.plus-three,
+.col.plus-four,
+.col.plus-five {
+  transition: all 250ms ease-in-out;
+}
