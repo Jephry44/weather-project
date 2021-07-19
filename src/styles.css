@@ -91,3 +91,11 @@ ul {
 .col.plus-five {
   transition: all 250ms ease-in-out;
 }
+#footer {
+  text-align: center;
+  font-size: 12px;
+}
+#github-link {
+  color: blue;
+  text-decoration: none;
+}
